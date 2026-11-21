@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verso: stories where every chapter has a song</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="logo" href="#" data-v="lib">Verso</a><nav><button class="ghost" data-v="lib">Stories</button><button class="ghost" data-v="write">Write</button></nav></header>
+<main id="app"></main>
+<div id="tray" hidden>
+<span class="disc" id="disc"></span>
+<div class="meta"><b id="tt"></b><small>Now playing</small></div>
+<button id="mute" data-mute>Mute</button><button class="ghost" data-off>Music off</button>
+<iframe id="yt" width="200" height="113" allow="autoplay; encrypted-media" title="Chapter song player"></iframe>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
